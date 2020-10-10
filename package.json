@@ -3,8 +3,11 @@
 	"displayName": "chakra-ui-cheatsheet",
 	"keywords": ["cheatsheet", "chakra-ui", "react"],
 	"icon": "images/icon.png",
+	"repository": {
+		"url": "https://github.com/itelofilho/chakra-ui-cheatsheet"
+	},
 	"description": "",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"engines": {
 		"vscode": "^1.50.0"
 	},
