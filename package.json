@@ -1,0 +1,54 @@
+{
+	"name": "chakra-ui-cheatsheet",
+	"displayName": "chakra-ui-cheatsheet",
+	"keywords": ["cheatsheet", "chakra-ui", "react"],
+	"icon": "images/icon.png",
+	"description": "",
+	"version": "0.1.1",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:chakra-ui-cheatsheet.chakra-ui-component-props"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "chakra-ui-cheatsheet.chakra-ui-component-props",
+				"title": "Chakra UI: Search <Component> Props"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"publisher": "itelofilho",
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.50.0",
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"dependencies": {
+		"@types/ramda": "^0.27.23",
+		"html2json": "^1.0.2",
+		"node-fetch": "^2.6.1",
+		"ramda": "^0.27.1"
+	}
+}
