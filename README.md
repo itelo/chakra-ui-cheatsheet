@@ -4,7 +4,7 @@
 
 Search the components props of Chakra UI without leaving the VSCode!!!!
 
-\!\[feature search component props\]\(images/example.gif\)
+![feature search component props](https://github.com/itelofilho/chakra-ui-cheatsheet/blob/master/images/example.gif)
 
 ## Release Notes
 
